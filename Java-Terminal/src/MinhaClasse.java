@@ -17,6 +17,7 @@ public class MinhaClasse {
         int idade = scanner.nextInt();
         System.out.println("Digite sua altura");
         double altura = scanner.nextDouble();
+        scanner.close();
 
         System.out.println("------------------------------------");
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
